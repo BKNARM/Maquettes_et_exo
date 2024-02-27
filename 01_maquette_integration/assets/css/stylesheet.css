@@ -1,0 +1,86 @@
+/* style générale */
+
+/* *********reset******* */
+/* @import url(reset.css); */
+/* *********reset******* */
+
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* ************************************************************HEADER ET NAV************************************************************ */
+
+body{
+    background-color: blue;
+    
+}
+
+
+/* *******************************Elementd header******************************* */
+header{
+    background-color: #101010;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+header div:first-child{
+    width: 60%;
+    
+}
+
+header div:nth-child(2){
+    width: 40%;
+    display: flex;
+    line-height: 50px;
+    /* justify-content: end; */
+    justify-content: space-evenly;
+    
+    
+
+}
+
+header div:nth-child(2) a{
+    text-align: center;
+    font-family: lora;
+    font-size: 0.62rem;
+    color: #737774;
+    
+    
+    
+    
+
+}
+
+
+/* ***************************************** */
+/* ***********************************NAV ************************************/
+nav{
+    width: 100%;
+    height: 50px;
+}
+nav div:first-child{
+    background-image: url(../img/s1b1.jpeg);
+    background-size: cover;
+}
+
+nav div:nth-child(2){
+    background-image: url(../img/s1b2.jpeg);
+    background-size: cover;
+}
+
+nav div:nth-child(2){
+    background-image: url(../img/s1b3.jpeg);
+    background-size: cover;
+}
+
+nav div:first-child,:nth-child(2),:last-child{
+    
+}
