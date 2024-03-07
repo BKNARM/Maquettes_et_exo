@@ -1,0 +1,15 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.CSSbackimg{
+    background-size: cover;
+    background-image: url(../images/hero-image.jpg);
+}
