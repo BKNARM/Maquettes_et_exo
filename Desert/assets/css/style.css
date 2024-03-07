@@ -7,13 +7,13 @@
 body{
     width: 100%;
     /* margin: 0 auto; */
-    /* background-color: blue; */
+    background-color: #E2E2E2;
 }
 
 /* ***************************L'en-tête*************************** */
 
 header{
-    /* background-color: blueviolet; */
+    background-color: #fff;
     justify-content: space-between;
     width: 58%;
     margin: 0 auto;
@@ -23,6 +23,7 @@ header{
 }
 
 header div{
+    
     display: flex;
     width: 33.33%;
     align-items: center;
@@ -65,9 +66,12 @@ header nav div{
 /* *******************MAIN container1 ******************* */
 
 main{
+    width: 58%;
+    margin: 0 auto;
+    background-color: #fff;
     display: flex;
-    border-top:2px solid grey;
-    border-bottom:2px solid grey;
+    border-top:2px solid lightgray;
+    border-bottom:2px solid lightgray;
 }
 /* ***********container1 debut*********** */
 .container1{
