@@ -12,4 +12,90 @@
 .CSSbackimg{
     background-size: cover;
     background-image: url(../images/hero-image.jpg);
+<<<<<<< HEAD
+=======
+    height: 400px;
+    
+}
+
+.CSSbackimg a{
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 0.5rem;
+    background-color: #e74c3c;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+.CSSbackimg a:hover{
+    background-color:#b83e30 ;
+}
+
+
+main{
+    margin-top: 4rem;
+   
+}
+
+.whoweareunderline{
+    border-bottom:1px solid #e74c3c;
+    font-size:14px;
+    /* line-height:12px; */
+    width:8%;
+}
+
+.getinvolvedunderline{
+    border-bottom:1px solid #e74c3c;
+    font-size:px;
+    /* line-height:12px; */
+    width:8%;
+}
+
+main>section:nth-child(1) img{
+    width: 150px;
+}
+
+main>section:nth-child(2) div:first-child{
+    display: flex;
+    width: 100% ;
+    justify-content: center;
+    
+}
+
+main>section:nth-child(2) div:first-child h2{
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+span{
+    color: #e74c3c;
+}
+
+.whoweare{
+    color: #e74c3c;
+}
+
+main>section:nth-child(2){
+    margin: 0;
+    background-color: #F8F9FA;
+}
+
+main>section:nth-child(2) a{
+    background-color: #fff;
+    color: #e74c3c;
+    border: 1px solid black;
+}
+
+main i{
+
+    padding-left: .9rem;
+    padding-right: .9rem;
+    /* width: 50px; */
+   font-size: 45px;
+   background-color: #474747;
+   color: #fff;
+   /* border-radius: 45%; */
+>>>>>>> e294261aa35be9d9b9dd3e29de5552d1afe8806c
 }
