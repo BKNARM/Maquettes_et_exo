@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 
 
@@ -26,7 +27,7 @@ header{
 }
 
 body{
-    background-color: brown;
+   
     
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -47,7 +48,7 @@ a{
     --Desaturated-Blue: hsl(238, 22%, 44%);
     --Bright-blue: hsl(224, 93%, 58%);
     --Moderate-cyan: hsl(170, 45%, 43%);
-    --Light-grayish-blue: hsl(240, 75%, 98%);
+    --Light-grayish-blue: #9D9AAB;
     --Light-gray: hsl(0, 0%, 75%);
 }
 
@@ -67,4 +68,76 @@ a{
     
     margin-top: 50px !important;
 }
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section1 p{
+    font-size: 1.8rem;
+    padding: 8rem;
+}
+
+input{
+    
+    border: 1px solid black; 
+    border-radius: 5px; 
+    padding: 4rem;
+    color: var(--Light-gray) !important;
+    font-size: 1.8rem;
+    
+}
+
+input::placeholder{
+    color: var(--Light-gray);
+    padding: 1.8rem;
+}
+
+.section1 button{
+    background-color: var(--Bright-blue);
+    color: #fff;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.section1 div:last-child{
+    margin-top: 200px !important;
+    padding: 5rem;
+}
+
+/* section 2 */
+
+.section2{
+    /* text-align: center; */
+}
+
+.section2 h2{
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+
+.section2 p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--Light-grayish-blue);
+    text-align: start;
+    
+}
+
+
+.section2 a{
+    color: var(--Moderate-cyan);
+    text-decoration: underline !important;
+    font-size: 2rem;
+}
+
+.section2 i{
+
+    color: var(--Moderate-cyan)!important;
+}
+
+
 
