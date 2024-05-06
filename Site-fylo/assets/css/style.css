@@ -22,7 +22,7 @@
 header{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -36,6 +36,10 @@ body{
     font-variation-settings:"wdth" 100;
       
     
+}
+
+.navbar-brand{
+    padding-left: 2rem;
 }
 
 a{
@@ -110,10 +114,11 @@ input::placeholder{
 /* section 2 */
 
 .section2{
-    /* text-align: center; */
+    margin-top: 5rem !important;
 }
 
 .section2 h2{
+    
     padding: 2rem;
     font-weight: bold;
     font-size: 2rem !important;
@@ -124,6 +129,7 @@ input::placeholder{
     font-size: 1.8rem;
     color: var(--Light-grayish-blue);
     text-align: start;
+    word-spacing: .5rem;
     
 }
 
@@ -131,7 +137,7 @@ input::placeholder{
 .section2 a{
     color: var(--Moderate-cyan);
     /* text-decoration: underline !important; */
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .section2 i{
@@ -140,10 +146,28 @@ input::placeholder{
 }
 
 hr{
+    
     color: var(--Moderate-cyan);
-    height: 5px;
-    margin: 25px auto 30px;
+    height: .50rem !important;
+    width: 17rem !important;
+    /* margin: 25px auto 30px; */
+    margin: 0 auto 2.5rem !important;
+    
 }
 
+/* ======================image de kyle =============================== */
 
 
+.imgKyle{
+    
+    
+     
+}
+
+.divKyle h2{
+    padding: 0;
+}
+
+.divKyle p{
+    font-size: 1.5rem;
+}
