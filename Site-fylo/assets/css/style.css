@@ -31,7 +31,7 @@ body{
     
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:"wdth" 100;
       
@@ -80,14 +80,13 @@ h1{
 
 .section1 p{
     font-size: 1.8rem;
-    padding: 8rem;
+    /* padding: 2rem; */
 }
 
 input{
     
     border: 1px solid black; 
-    border-radius: 5px; 
-    padding: 4rem;
+    border-radius: 3px; 
     color: var(--Light-gray) !important;
     font-size: 1.8rem;
     
@@ -103,31 +102,38 @@ input::placeholder{
     color: #fff;
     font-size: 1.8rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .section1 div:last-child{
-    margin-top: 200px !important;
-    padding: 5rem;
+    /* margin-top: 10px !important; */
+    padding: 2rem;
 }
 
 /* section 2 */
 
 .section2{
+    margin-left: 30px !important;
     margin-top: 5rem !important;
+}
+
+.section2{
+    background-image: url(/assets/img/bg-curve-desktop.svg);
+    background-size: cover;
 }
 
 .section2 h2{
     
-    padding: 2rem;
+    
     font-weight: bold;
-    font-size: 2rem !important;
+    font-size: 4rem !important;
+    
 }
 
 .section2 p{
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.8rem;
-    color: var(--Light-grayish-blue);
+    color: var(-);
     text-align: start;
     word-spacing: .5rem;
     
@@ -149,25 +155,133 @@ hr{
     
     color: var(--Moderate-cyan);
     height: .50rem !important;
-    width: 17rem !important;
+    width: 155px !important;
     /* margin: 25px auto 30px; */
-    margin: 0 auto 2.5rem !important;
+   
     
 }
 
 /* ======================image de kyle =============================== */
 
 
-.imgKyle{
+.laCarte{
     
-    
-     
+    box-shadow: 1px 1px 14px 1px rgba(61,61,61,0.49);
 }
 
 .divKyle h2{
     padding: 0;
 }
 
+.carteKyle img{
+    width: 50px !important;
+    margin-right: 1.5rem !important;
+}
+
+.carteKyle div h2{
+    font-size:1.50rem !important;
+}
+
+.carteKyle div p{
+    font-size: 1rem;
+}
+
 .divKyle p{
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
+}
+
+
+/* ********************section3************************ */
+.section3{
+    background-color: #575989;
+}
+.section3 button{
+    background-color: var(--Bright-blue);
+    color: #fff;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.section3 form input, button{
+    box-shadow: 7px 6px 16px -1px rgba(0,0,0,0.5);
+    border: none;
+}
+
+.section3 div h2{
+    font-size: 2.5rem !important;
+}
+
+.section3 div p{
+    font-size: 1.5rem !important;
+    /* padding: 3rem !important; */
+    font-family:open sans;
+}
+
+
+/* ************************footer************************ */
+
+
+.footerContent a{
+    font-size: 2rem;
+    line-height: 3rem !important;
+}
+
+.imageFyloFooter{
+    width: 25rem;
+}
+
+.infos img{
+    
+    margin-right: 2rem !important;
+}
+
+
+
+footer{
+    background-color: var(--Very-dark-blue);
+}
+
+footer a{
+    color: #fff;
+}
+
+
+.socialMedia i{
+    background-color: #07043B;
+    font-size: 3rem !important;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    
+}
+
+
+/* @media screen and (max-width:1399.9) {
+    .premiereSection{
+        padding: 100px;
+    }
+} */
+
+@media screen and(max-width:1400) {
+    hr{
+    
+        color: var(--Moderate-cyan);
+        height: .50rem !important;
+        width: 155px !important;
+        /* margin: 25px auto 30px; */
+       
+        
+    }
+}
+
+@media screen and(mid-width:576) {
+    hr{
+    
+        color: var(--Moderate-cyan);
+        height: .50rem !important;
+        width: 155px !important;
+        /* margin: 25px auto 30px; */
+       
+        
+    }
 }
